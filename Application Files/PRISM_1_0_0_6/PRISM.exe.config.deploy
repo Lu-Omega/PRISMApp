@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+    <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+  </configSections>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8" />
+  </startup>
+  <connectionStrings>
+    <add name="PRISMConnectionString" connectionString="Server=Thando-LT\SQLEXPRESS;Database=PRISM;Trusted_Connection=True;" providerName="System.Data.SqlClient" />
+    <add name="PRISMTestConnectionString" connectionString="Server=Thando-LT\SQLEXPRESS;Database=PRISM_Test;Trusted_Connection=True;" providerName="System.Data.SqlClient" />
+	  <add name="PRISMEntities" connectionString="metadata=res://*/PrismDataModel.csdl|res://*/PrismDataModel.ssdl|res://*/PrismDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=THANDO-LT\SQLEXPRESS;initial catalog=PRISM;integrated security=True;trustservercertificate=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+	  <add name="PRISMEntities1" connectionString="metadata=res://*/PRISMDataModel.csdl|res://*/PRISMDataModel.ssdl|res://*/PRISMDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=THANDO-LT\SQLEXPRESS;initial catalog=PRISM;integrated security=True;trustservercertificate=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+  </connectionStrings>
+		<appSettings>
+			<add key="SmtpServer" value="smtp.gmail.com"/>
+			<add key="SmtpPort" value="587"/>
+			<add key="SmtpUsername" value="spectruminsights2@gmail.com"/>
+			<add key="SmtpPassword" value="hqkc yvrs skna mvra"/>
+		</appSettings>
+  <entityFramework>
+    <providers>
+      <provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer" />
+    </providers>
+  </entityFramework>
+</configuration>

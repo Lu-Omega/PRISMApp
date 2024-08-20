@@ -1,2 +1,2 @@
 # PRISMApp
-Publish of the appl
+Publish of the app
